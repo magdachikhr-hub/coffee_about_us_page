@@ -75,6 +75,7 @@ section.second {
   align-items: center;
   gap: 125px;
   margin-top: 168px;
+  margin-bottom: 168px;
   color: rgba(51, 61, 75, 1);
   h2 {
     font-family: "Fraunces", serif;
@@ -86,5 +87,39 @@ section.second {
     font-weight: 400;
     line-height: 26px;
     margin-top: 32px;
+  }
+}
+
+/* section third */
+section.third {
+  div.dark {
+    height: 474px;
+    background-color: rgb(42 49 58);
+    display: flex;
+    padding: 0 85px;
+    position: relative;
+    border-radius: 10px;
+  }
+  img.heart {
+    position: absolute;
+    right: 85px;
+    bottom: 88px;
+  }
+  div.text {
+    width: 540px;
+    padding-top: 88px;
+    h2 {
+      color: rgba(254, 252, 247, 1);
+      font-weight: 900;
+      font-family: "Fraunces", serif;
+      font-size: 40px;
+      margin-bottom: 32px;
+    }
+    p {
+      color: rgb(211 212 209);
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+    }
   }
 }
