@@ -99,6 +99,7 @@ section.third {
     padding: 0 85px;
     position: relative;
     border-radius: 10px;
+    margin-bottom: 168px;
   }
   img.heart {
     position: absolute;
@@ -121,5 +122,34 @@ section.third {
       font-size: 16px;
       line-height: 26px;
     }
+  }
+}
+
+/* section fourth */
+
+section.fourth {
+  div.texts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 168px;
+  }
+  h3 {
+    font-size: 32px;
+    font-weight: 900;
+    color: rgba(51, 61, 75, 1);
+    line-height: 36px;
+    font-family: "Fraunces", serif;
+    margin-top: 45.93px;
+    margin-bottom: 24px;
+    width: 285px;
+  }
+  p {
+    color: rgba(51, 61, 75, 1);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  img.headquarters {
+    margin-bottom: 72px;
   }
 }
