@@ -45,7 +45,7 @@ ul {
 section.first {
   height: 450px;
   background-image: url(./images/backgroundpic.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
   padding: 137px 85px;
@@ -65,5 +65,26 @@ section.first {
     font-size: 16px;
     line-height: 26px;
     font-weight: 300;
+  }
+}
+
+/* section second */
+
+section.second {
+  display: flex;
+  align-items: center;
+  gap: 125px;
+  margin-top: 168px;
+  color: rgba(51, 61, 75, 1);
+  h2 {
+    font-family: "Fraunces", serif;
+    font-size: 40px;
+    font-weight: 900;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 32px;
   }
 }
